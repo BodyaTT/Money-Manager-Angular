@@ -1,0 +1,19 @@
+<h1 *ngIf="!operation">LOADING ...</h1>
+<div *ngIf="operation">
+  <h2>{{operation.sum}}</h2>
+  <p>{{operation.descr}}</p>
+</div>
+
+
+<div *ngIf="operationCategory">
+  <h3>{{operationCategory.name}}</h3>
+</div>
+
+
+<ul>
+  <li *ngFor="let o of categoryOperations">
+    {{operationCategory.name}} - {{o.sum}}
+  </li>
+</ul>
+
+

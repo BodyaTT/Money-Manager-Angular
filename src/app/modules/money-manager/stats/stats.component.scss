@@ -1,0 +1,30 @@
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__item {
+
+    &--income,
+    &--consumption {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+
+    &--profit {
+      width: 100%;
+    }
+
+    &-profit {
+      font-weight: 900;
+
+      &--income {
+        color: #4054B2;
+      }
+
+      &--consumption {
+        color: #F1453D;
+      }
+    }
+  }
+}

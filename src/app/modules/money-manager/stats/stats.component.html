@@ -1,0 +1,6 @@
+<div class="stats">
+  <mat-card class="stats__item stats__item--income">INCOME: {{stats.income}}</mat-card>
+  <mat-card class="stats__item stats__item--consumption">CONSUMTION: {{stats.consumption}}</mat-card>
+  <mat-card class="stats__item stats__item--profit">PROFIT:
+    <span class="stats__item-profit" [class.stats__item-profit--income]="stats.profit >= 0" [class.stats__item-profit--consumption]="stats.profit < 0">{{stats.profit}}</span></mat-card>
+</div>

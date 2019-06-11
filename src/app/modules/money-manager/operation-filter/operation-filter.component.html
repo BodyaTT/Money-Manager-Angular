@@ -1,0 +1,7 @@
+<mat-form-field>
+    <mat-select placeholder="Filters" [formControl]="filters" multiple >
+      <mat-option *ngFor="let filter of filterList" [value]="filter">{{filter}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  {{filters.value}}
+ 

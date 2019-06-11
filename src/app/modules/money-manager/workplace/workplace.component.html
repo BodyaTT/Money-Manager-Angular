@@ -1,0 +1,30 @@
+<div class="workplace">
+  <div class="workplace__control">
+    <div class="workplace__form">
+      <app-operation-input (addedOperation)="addOperation($event)" [categories]="categories"></app-operation-input>
+    </div>
+    <app-stats class="workplace__stats" [operations]="operations"></app-stats>
+  </div>
+  <!-- <app-operation-filter></app-operation-filter> -->
+  <mat-form-field>
+    <mat-select placeholder="Filters" [formControl]="filters" multiple>
+      <mat-option  *ngFor="let filter of filterList" [value]="filter">{{filter}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <!-- <label>
+    Income
+    <input type="radio" [(ngModel)]="operationFilterType" value="income">
+  </label>
+  <label>
+    Consumption
+    <input type="radio" [(ngModel)]="operationFilterType" value="consumption">
+  </label> -->
+  <div class="workplace__list">
+    <mat-card class="workplace__list-item" *ngFor="let o of operations | operations:operationFilter">
+      <b routerLink="details/{{o.id}}">{{getCategory(o.catId).name}}</b> - {{o.sum}}
+    </mat-card>
+  </div>
+
+</div>
+

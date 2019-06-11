@@ -1,0 +1,25 @@
+.workplace {
+  height: 100vh;
+  display: flex;
+  overflow-y: hidden;
+
+  &__list,
+  &__control {
+    width: 50%;
+    padding: 20px;
+  }
+
+  &__control {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__list {
+    overflow-y: auto;
+
+    &-item {
+      margin-bottom: 20px;
+    }
+  }
+}

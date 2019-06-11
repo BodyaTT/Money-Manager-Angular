@@ -1,0 +1,272 @@
+{
+  "categories": [
+    {
+      "id": "0",
+      "name": "Без названия",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46fc1b416ae341c922f",
+      "name": "Продукты питания",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f561eca76ba7d1468",
+      "name": "Авто и транспорт",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f36fbc0b8e5436ced",
+      "name": "Одежда и обувь",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f0c93161cbcace56f",
+      "name": "Квартира",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f402ca41286931379",
+      "name": "Кафе и рестораны",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f309cc243de3ee2dd",
+      "name": "Развлечения",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46fd03c03ebf2b728a5",
+      "name": "Путешествия",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46fa6905822d10ce177",
+      "name": "Здоровье",
+      "type": "consumption"
+    },
+    {
+      "id": "1",
+      "name": "Без названия",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46fab67b55ce966fbf9",
+      "name": "Основная работа",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46fc5774aa7d174202c",
+      "name": "Дополнительный источник",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46f51a4128eb96df054",
+      "name": "Возврат долга",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46f1257fe7d1c2a3adb",
+      "name": "Проценты",
+      "type": "income"
+    }
+  ],
+  "operations": [
+    {
+      "id": "5bd8c46fc35a22b35e455b6f",
+      "catId": "5bd8c46fd03c03ebf2b728a5",
+      "type": "consumption",
+      "sum": 8633,
+      "descr": "commodo dolore dolor"
+    },
+    {
+      "id": "5bd8c46f52ca026a14c20b0a",
+      "catId": "5bd8c46fa6905822d10ce177",
+      "type": "consumption",
+      "sum": 1920,
+      "descr": "quis aliquip consequat"
+    },
+    {
+      "id": "5bd8c46f8817dd9cab26b589",
+      "catId": "5bd8c46f36fbc0b8e5436ced",
+      "type": "income",
+      "sum": 2746,
+      "descr": "non aute fugiat"
+    },
+    {
+      "id": "5bd8c46f44600bfd63a67c5d",
+      "catId": "5bd8c46fd03c03ebf2b728a5",
+      "type": "income",
+      "sum": 1247,
+      "descr": "sunt sit quis"
+    },
+    {
+      "id": "5bd8c46f489b6bea739f8d86",
+      "catId": "5bd8c46fa6905822d10ce177",
+      "type": "consumption",
+      "sum": 2689,
+      "descr": "cillum sunt culpa"
+    },
+    {
+      "id": "5bd8c46f0d5b8dfd6708422a",
+      "catId": "5bd8c46f402ca41286931379",
+      "type": "income",
+      "sum": 333,
+      "descr": "nisi voluptate Lorem"
+    },
+    {
+      "id": "5bd8c46f0dabeeb6b26aabb5",
+      "catId": "5bd8c46f402ca41286931379",
+      "type": "consumption",
+      "sum": 1482,
+      "descr": "est deserunt reprehenderit"
+    },
+    {
+      "id": "5bd8c46f27b1129e85e40cbf",
+      "catId": "5bd8c46f36fbc0b8e5436ced",
+      "type": "income",
+      "sum": 2546,
+      "descr": "cillum et ad"
+    },
+    {
+      "id": "5bd8c46f66fefbcab4558e1e",
+      "catId": "5bd8c46fc1b416ae341c922f",
+      "type": "consumption",
+      "sum": 366,
+      "descr": "eiusmod sit quis"
+    },
+    {
+      "id": "5bd8c46f6701e97e3271ae81",
+      "catId": "5bd8c46f1257fe7d1c2a3adb",
+      "type": "income",
+      "sum": 802,
+      "descr": "officia excepteur in"
+    },
+    {
+      "catId": "5bd8c46f561eca76ba7d1468",
+      "type": "consumption",
+      "sum": 100,
+      "descr": "sdfsdfsdfsdf",
+      "id": "nceC9OA"
+    },
+    {
+      "catId": "5bd8c46fab67b55ce966fbf9",
+      "type": "consumption",
+      "sum": 100000,
+      "descr": "werwerwer",
+      "id": "z7ENqul"
+    },
+    {
+      "catId": "5bd8c46fc1b416ae341c922f",
+      "type": "consumption",
+      "sum": 54,
+      "descr": "hjgh",
+      "id": "m95XJKO"
+    },
+    {
+      "catId": "5bd8c46fc1b416ae341c922f",
+      "type": "consumption",
+      "sum": 1234,
+      "descr": "dsfsdf",
+      "id": "bjkNto6"
+    },
+    {
+      "catId": "5bd8c46fc1b416ae341c922f",
+      "type": "consumption",
+      "sum": 234,
+      "descr": "sdfsdf",
+      "id": "h7~FMAm"
+    },
+    {
+      "catId": "5bd8c46fab67b55ce966fbf9",
+      "type": "consumption",
+      "sum": 200000,
+      "descr": "sfsfsd",
+      "id": "WvRHFGE"
+    },
+    {
+      "catId": "0",
+      "type": "consumption",
+      "sum": 400000,
+      "descr": "sfsfsd",
+      "id": "m_T3hXb"
+    },
+    {
+      "catId": "5bd8c46fab67b55ce966fbf9",
+      "type": "consumption",
+      "sum": 100000,
+      "descr": "sdf",
+      "id": "jxhEU5g"
+    },
+    {
+      "catId": "1",
+      "type": "income",
+      "sum": 234,
+      "descr": "sdf",
+      "id": "uov5uuT"
+    },
+    {
+      "catId": "0",
+      "type": "consumption",
+      "sum": 234,
+      "descr": "sdf",
+      "id": "7olThhs"
+    },
+    {
+      "catId": "5bd8c46fab67b55ce966fbf9",
+      "type": "income",
+      "sum": 900000,
+      "descr": "sdf",
+      "id": "Ki6j0sP"
+    },
+    {
+      "catId": "0",
+      "type": "consumption",
+      "sum": 0,
+      "descr": "",
+      "id": "ycl0I3o"
+    },
+    {
+      "catId": "5bd8c46fc1b416ae341c922f",
+      "type": "consumption",
+      "sum": 100000,
+      "descr": "sdfsdf",
+      "id": "PFzbvb2"
+    },
+    {
+      "catId": "5bd8c46fc1b416ae341c922f",
+      "type": "consumption",
+      "sum": 5000,
+      "descr": "Бананы\n",
+      "id": "POW0QQY"
+    },
+    {
+      "catId": "5bd8c46f51a4128eb96df054",
+      "type": "income",
+      "sum": 5200,
+      "descr": "Долг",
+      "id": "rAeOCKj"
+    },
+    {
+      "catId": "5bd8c46fc1b416ae341c922f",
+      "type": "consumption",
+      "sum": 5000,
+      "descr": "На пиццу",
+      "id": "I7r6z_h"
+    },
+    {
+      "catId": "5bd8c46fab67b55ce966fbf9",
+      "type": "income",
+      "sum": 20000,
+      "descr": "ЗП",
+      "id": "sFUpzzA"
+    },
+    {
+      "catId": "5bd8c46fc5774aa7d174202c",
+      "type": "income",
+      "sum": 100,
+      "descr": "Подработка",
+      "id": "3-DfMQV"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<div class="operation-input">
+  <mat-button-toggle-group [(ngModel)]="operationType">
+    <mat-button-toggle value="income">
+      INCOME
+    </mat-button-toggle>
+    <mat-button-toggle value="consumption">
+      CONSUMPTION
+    </mat-button-toggle>
+  </mat-button-toggle-group>
+
+  <mat-form-field class="operation-input__field">
+    <mat-select placeholder="Category" [(ngModel)]="newOperation.catId">
+      <mat-option *ngFor="let c of availableCategories" [value]="c.id">
+        {{c.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+
+
+  <mat-form-field class="operation-input__field">
+    <input type="number" matInput placeholder="$$$" [(ngModel)]="newOperation.sum">
+  </mat-form-field>
+  <mat-form-field class="operation-input__field">
+    <textarea matInput [(ngModel)]="newOperation.descr"></textarea>
+  </mat-form-field>
+
+  <button mat-raised-button [color]="newOperation.type === 'income' ? 'primary' : 'warn'" (click)="addOperation()">ADD OPERATION</button>
+</div>
